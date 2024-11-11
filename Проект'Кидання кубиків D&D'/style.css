@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #4c1a1a;
+    color: #ff7043;
+  }
+  .dice-options 
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .dice-button 
+  {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff7043;
+    color: #4c1a1a;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  .dice-button:hover 
+  {
+    background-color: #ff8a65;
+  }
+  #result 
+  {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #modifier-input, #dice-count-input 
+  {
+    margin-top: 15px;
+  }
+  .advantage-buttons 
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .advantage-button 
+  {
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #ff7043;
+    color: #4c1a1a;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  .advantage-button:hover 
+  {
+    background-color: #ff8a65;
+  }
+  
